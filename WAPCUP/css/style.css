@@ -931,9 +931,7 @@
      display: inline-block;
      vertical-align: middle;
 }
- .main-menu ul>li:nth-child (6) {
-     padding-right: 0px;
-}
+
  .nav>li {
      position: inherit;
      display: inline-block;
