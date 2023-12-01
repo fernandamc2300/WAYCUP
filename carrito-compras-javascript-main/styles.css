@@ -5,9 +5,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
+/* letras pg */
 body{
+ 
     margin: 0 auto;
     max-width: 1200px;
     font-family: 'Lato';
@@ -26,26 +29,109 @@ body{
 
 img{
     max-width: 100%;
+
+}
+
+.total{
+    color:#D05632;
+    border: none;
+    background: none;
+    background-color: #D05632;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
 }
 
 /* Header */
 header{
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 40px 0;
+    padding: 40px 0 50px 0;
 }
+.img1{
+    color: #ffffff;
+    padding: 80px 0 40px 0;
+}
+.img2{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 40px 0;
+}
+
+.footer {
+    background: #D05632;
+    padding-top: 90px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.call_now h3 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 33px;
+}
+
+a, .btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+.btn-outline-light {
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
 
 .container-icon{
     position: relative;
 }
-
+/* contador del carrito*/
 .count-products{
     position: absolute;
     top: 55%;
     right: 0;
 
     background-color: #000;
-    color: #fff;
+    color: #ffffff;
     width: 25px;
     height: 25px;
 
