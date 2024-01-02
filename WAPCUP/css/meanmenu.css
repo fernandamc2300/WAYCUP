@@ -3,14 +3,14 @@
      display: none;
 }
  .mean-container .mean-bar {
-     background: #000;
+     background: #D05632;
      float: left;
      min-height: 40px;
-     padding: 5px 0;
+     padding: 4px 10px;
      position: relative;
      width: 100%;
      z-index: 999;
-     margin-top: 15px;
+     margin-top: -18px;
 }
  .mean-container a.meanmenu-reveal {
      color: #fff;
